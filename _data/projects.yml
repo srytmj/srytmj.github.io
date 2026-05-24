@@ -1,0 +1,13 @@
+# - title: Data Reconciliation Tool
+#   description: Project ini menyederhanakan proses pencocokan dua dataset secara otomatis menggunakan Python untuk audit data.
+#   stack: [Python, Pandas, Excel]
+#   features: [Automated data matching, Missing record detection, Export ke Excel]
+#   screenshot: https://dummyimage.com/600x400/000/fff
+#   repository_url: https://github.com/username/recon-tool
+
+# - title: Telegram Auth Bot
+#   description: Mengamankan proses login dan verifikasi pengguna menggunakan protokol OAuth 2.1 via Telegram Bot API.
+#   stack: [Python, OAuth 2.1, Telegram Bot]
+#   features: [Secure Login, Inline Menu, Callback Query]
+#   screenshot: /assets/img/projects/auth-bot.png
+#   repository_url: https://github.com/username/bot-auth
