@@ -11,3 +11,38 @@
 #   features: [Secure Login, Inline Menu, Callback Query]
 #   screenshot: /assets/img/projects/auth-bot.png
 #   repository_url: https://github.com/username/bot-auth
+
+- title: ATM CLI Banking System
+  description: Sistem ATM berbasis CLI yang dibangun dengan Java menggunakan prinsip OOP seperti encapsulation, inheritance, dan polymorphism. Mendukung fitur transaksi seperti tarik tunai, setor, transfer, serta autentikasi pengguna.
+  stack: [Java, OOP]
+  features: [Withdraw & Deposit, Transfer antar akun, Authentication system, Transaction handling]
+#   screenshot: /assets/img/projects/auth-bot.png
+  repository_url: https://github.com/srytmj/oop-banking-cli
+
+- title: Laravel POS Accounting System
+  description: Aplikasi Point of Sale (POS) berbasis web yang terintegrasi dengan sistem akuntansi untuk mencatat transaksi dan menghasilkan jurnal umum serta buku besar secara otomatis.
+  stack: [Laravel, PHP, MySQL, Tailwind CSS]
+  features: [POS transaksi, Double-entry accounting, Jurnal umum otomatis, Buku besar, Laporan keuangan]
+#   screenshot: /assets/img/projects/auth-bot.png
+  repository_url: https://github.com/srytmj/laravel-pos-accounting
+
+- title: Project Budget Management System
+  description: Sistem manajemen proyek berbasis web yang mendukung perencanaan anggaran dan pelacakan realisasi biaya untuk memonitor perbandingan budget vs actual.
+  stack: [Laravel, PHP, MySQL]
+  features: [Budget planning, Expense tracking, Budget vs actual report, Project management]
+#   screenshot: /assets/img/projects/auth-bot.png
+  repository_url: https://github.com/srytmj/project-budget-management
+
+- title: Frequent Customer Card Admin System
+  description: Sistem administrasi internal untuk pengelolaan Frequent Customer Card pada layanan kereta, dengan fokus pada kontrol penggunaan dan validasi kuota untuk menjaga integritas data.
+  stack: [Laravel, PHP, MySQL]
+  features: [Card management, Quota control, Usage validation, Admin dashboard]
+#   screenshot: /assets/img/projects/auth-bot.png
+  repository_url: https://github.com/srytmj/fcc-admin-system
+
+- title: SIPENA - Asprak Registration System
+  description: Sistem informasi pendaftaran asisten praktikum berbasis Laravel dengan dukungan multi-role (Student, Lecturer, Admin) serta autentikasi fleksibel menggunakan email atau username.
+  stack: [Laravel, PHP, MySQL, Tailwind CSS, Laravel Breeze]
+  features: [Multi-role authentication, Asprak registration, User management, Responsive UI]
+  #   screenshot: /assets/img/projects/auth-bot.png
+  repository_url: https://github.com/srytmj/sipena-app
