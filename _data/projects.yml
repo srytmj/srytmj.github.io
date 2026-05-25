@@ -13,7 +13,7 @@
 #   repository_url: https://github.com/username/bot-auth
 
 - title: ATM CLI Banking System
-  description: Sistem ATM berbasis CLI yang dibangun dengan Java menggunakan prinsip OOP seperti encapsulation, inheritance, dan polymorphism. Mendukung fitur transaksi seperti tarik tunai, setor, transfer, serta autentikasi pengguna.
+  description: Sistem ATM berbasis CLI yang dibangun dengan Java menggunakan prinsip OOP seperti encapsulation, inheritance, dan polymorphism. Mendukung fitur transaksi seperti tarik tunai, setor, transfer.
   stack: [Java, OOP]
   features: [Withdraw & Deposit, Transfer antar akun, Authentication system, Transaction handling]
 #   screenshot: /assets/img/projects/auth-bot.png
