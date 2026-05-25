@@ -1,6 +1,6 @@
 ---
 title: My Projects
-layout: projects
+layout: project
 order: 6
 icon: fas fa-code
 ---
