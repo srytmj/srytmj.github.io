@@ -2,12 +2,13 @@
 title: "Monitoring dan Kelola Tagihan AWS"
 description: "AWS punya dashboard dan tools khusus buat ngontrol pengeluaran. Dari AWS Budgets sampai paket support."
 author: srytmj
-date: 2026-05-27 23:00:00 +0700
+date: 2026-05-27 00:00:00 +0700
 categories: [Cloud Computing, AWS]
 tags: [cloud, aws, billing, budgets, aws-support]
 pin: false
 math: false
 mermaid: false
+published: true
 ---
 
 Udah paham cara AWS ngitung biaya, tapi gimana cara mastiin pengeluarannya tetap terkontrol? AWS punya dashboard dan beberapa tools khusus buat itu. Jadi kita bisa pantau tagihan secara real-time buat menghindari tagihan yang membengkak.

@@ -8,6 +8,7 @@ tags: [cloud, aws, iaas, paas, saas, infrastruktur]
 pin: false
 math: false
 mermaid: true
+published: true
 image:
   path: /assets/img/posts/260524/2026-05-24-ikhtisar-konsep-cloud/cover.png
   lqip: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==

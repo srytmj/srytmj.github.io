@@ -8,6 +8,7 @@ tags: [qa, testing, software-development, sdlc, bug]
 pin: false
 math: false
 mermaid: true
+published: true
 image:
   path: /assets/img/posts/2601018/content-1.jpg
 ---

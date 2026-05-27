@@ -8,6 +8,7 @@ tags: [cloud, aws, ec2, vpc, s3, iam, pengantar]
 pin: false
 math: false
 mermaid: true
+published: true
 ---
 
 Oke, kita udah bahas apa itu cloud dan kenapa banyak yang beralih ke sana. Sekarang waktunya kenalan langsung sama AWS, platform cloud yang bakal jadi fokus utama kita ke depannya.

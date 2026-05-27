@@ -8,6 +8,7 @@ tags: [cloud, aws, caf, migrasi, cloud-adoption]
 pin: false
 math: false
 mermaid: true
+published: true
 ---
 
 Pindah ke cloud itu kedengarannya simpel. Tapi kenyataannya, buat organisasi skala menengah ke atas, prosesnya jauh lebih kompleks dari sekadar "upload ke server AWS".

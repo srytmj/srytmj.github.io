@@ -2,12 +2,13 @@
 title: "Kelola Banyak Akun AWS Sekaligus dengan AWS Organizations"
 description: "Solusi buat yang punya banyak akun AWS dengan AWS Organizations yang bisa nyatuin semuanya dalam satu kendali terpusat."
 author: srytmj
-date: 2026-05-27 22:00:00 +0700
+date: 2026-05-27 00:00:00 +0700
 categories: [Cloud Computing, AWS]
 tags: [cloud, aws, organizations, iam, scp, manajemen-akun]
 pin: false
 math: false
 mermaid: true
+published: true
 ---
 
 Bayangin kamu kerja di perusahaan yang punya banyak tim: developer, jaringan, QA, dan seterusnya. Tiap tim punya aplikasi masing-masing, dan masing-masing bikin akun AWS sendiri-sendiri.

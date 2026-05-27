@@ -2,12 +2,13 @@
 title: "Gimana Cara AWS Ngitung Biaya? Ini Dasar-dasar Harganya"
 description: "Biar nggak kaget pas lihat tagihan, pahami dulu gimana AWS menetapkan harga: dari model pembayaran, diskon, sampai layanan yang beneran gratis."
 author: srytmj
-date: 2026-05-27 20:00:00 +0700
+date: 2026-05-27 00:00:00 +0700
 categories: [Cloud Computing, AWS]
 tags: [cloud, aws, pricing, free-tier, biaya, reserved-instance]
 pin: false
 math: false
 mermaid: false
+published: true
 ---
 
 Salah satu hal yang bikin orang ragu pakai AWS di awal itu biasanya soal biaya. "Nanti tagihannya berapa? Tiba-tiba mahal gimana?" Wajar banget sih, apalagi kalau baru pertama kali coba.

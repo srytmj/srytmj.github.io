@@ -8,6 +8,7 @@ tags: [cloud, aws, keuntungan, auto-scaling, efisiensi]
 pin: false
 math: false
 mermaid: false
+published: true
 # image:
 #   path: assets/img/posts/260524/2026-05-24-keuntungan-cloud-computing/0.jpeg
 #   lqip: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==

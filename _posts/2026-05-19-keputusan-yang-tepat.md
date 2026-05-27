@@ -8,6 +8,7 @@ tags: [productivity, jurnal, portfolio]
 pin: true
 math: false
 mermaid: false
+published: true
 ---
 
 ## Titik Jenuh dan Sebuah Kesadaran
