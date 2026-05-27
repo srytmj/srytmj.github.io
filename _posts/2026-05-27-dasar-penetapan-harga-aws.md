@@ -4,7 +4,7 @@ description: "Biar nggak kaget pas lihat tagihan, pahami dulu gimana AWS menetap
 author: srytmj
 date: 2026-05-27 20:00:00 +0700
 categories: [Cloud Computing, AWS]
-tags: [cloud, aws, pricing, free-tier, reserved-instance]
+tags: [cloud, aws, pricing, free-tier, biaya, reserved-instance]
 pin: false
 math: false
 mermaid: false
@@ -63,6 +63,47 @@ Ada tiga jenis pemesanan instans cadangan (*Reserved Instances*):
 AWS ngasih diskon berbasis volume. Semakin banyak yang kamu pakai, harga per unitnya bisa semakin murah.
 
 Ini paling sering dimanfaatkan di layanan storage seperti Amazon S3, EBS, dan EFS. Contoh konkretnya: kalau kamu cuma butuh simpan data arsip yang jarang diakses, pakai **S3 Glacier**. Harganya jauh lebih murah dari S3 biasa, dengan trade-off akses datanya lebih lambat.
+
+---
+
+## Estimasi Biaya Pakai AWS Pricing Calculator
+
+Sebelum beneran migrasi, wajar banget kalau kamu mau tahu dulu kira-kira bakal keluar berapa. Nah, AWS nyediain tool yang namanya **AWS Pricing Calculator** buat keperluan ini.
+
+Dengan tool ini, kamu bisa bikin estimasi biaya bulanan berdasarkan arsitektur atau layanan yang mau dipakai. Bisa juga dipakai buat bandingin simulasi biaya antara on-premise dan AWS secara lebih transparan.
+
+Jadi nggak ada lagi alasan "nggak tahu harganya berapa" sebelum mulai. Semuanya bisa dihitung dulu sebelum kartu kredit digesek.
+
+> **Tips:** coba akses AWS Pricing Calculator di [calculator.aws](https://calculator.aws) dan simulasikan arsitektur yang kamu rencanain. Hasilnya bisa di-export dan dijadikan bahan presentasi ke atasan atau klien.
+{: .prompt-tip }
+
+---
+
+## Manfaat Pindah ke Cloud Lebih dari Sekadar Tagihan Murah
+
+Kadang orang mikir keuntungan migrasi ke cloud itu cuma soal penghematan biaya bulanan. Padahal ada banyak manfaat lain yang nggak kalah penting, dan ini perlu diperhitungkan juga pas evaluasi.
+
+### Manfaat Langsung
+
+Ini yang paling gampang dihitung karena dampaknya langsung terasa di pengeluaran operasional:
+
+- Biaya komputasi, penyimpanan, jaringan, dan keamanan berkurang
+- Pembelian hardware dan software di awal (*capex*) jauh berkurang
+- Biaya operasional harian turun, termasuk urusan backup dan disaster recovery
+- Jumlah personel yang harus stand-by ngurusin hardware fisik juga bisa dikurangi
+
+### Manfaat Tidak Langsung
+
+Nah, yang ini dampaknya lebih ke jangka panjang dan efisiensi kerja tim:
+
+- Layanan dan aplikasi bisa dipakai ulang (*reusable*), jadi lebih mudah kalau mau ubah atau ganti solusi
+- Developer jadi lebih produktif karena nggak harus pusing mikirin infrastruktur
+- Kepuasan pengguna meningkat karena sistem lebih stabil dan jarang down
+- Bisnis jadi lebih tangkas dalam merespons peluang baru di pasar
+- Jangkauan global bisnis bisa meluas dengan lebih cepat
+
+> **Catatan:** pas bikin proposal migrasi ke cloud, jangan cuma tampilkan penghematan biaya langsung. Manfaat tidak langsung seperti peningkatan produktivitas developer dan kepuasan pelanggan juga punya nilai bisnis yang nyata.
+{: .prompt-info }
 
 ---
 
