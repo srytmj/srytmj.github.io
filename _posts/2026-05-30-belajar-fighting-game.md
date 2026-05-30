@@ -1,8 +1,8 @@
 ---
 title: "Apa-apa aja tentang Fighting Game"
 description: "Cerita perjalanan belajar fighting game dari nol, dari Street Fighter 6, Guilty Gear Strive, sampai akhirnya ngerti kenapa footsies itu penting banget."
-author: cotes
-date: 2026-05-19 23:00:00 +0700
+author: srytmj
+date: 2026-05-30 00:53:00 +0700
 categories: [Gaming, Fighting Game]
 tags: [guilty gear strive, street fighter 6, fighting game, belajar]
 pin: false
