@@ -258,7 +258,7 @@ Di Street Fighter 6, oki lebih "terstruktur" karena ada banyak pilihan defensive
 
 {%
   include embed/video.html
-  src='media/video/posts/260530/2026-05-30-belajar-fighting-game/meaty.mp4'
+  src='assets/media/video/posts/260530/2026-05-30-belajar-fighting-game/meaty.mp4'
   title='Demo Meaty'
   autoplay=true
   loop=true
