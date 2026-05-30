@@ -259,8 +259,6 @@ Di Street Fighter 6, oki lebih "terstruktur" karena ada banyak pilihan defensive
 {%
   include embed/video.html
   src='media/video/posts/260530/2026-05-30-belajar-fighting-game/meaty.mp4'
-  types='ogg|mov'
-  <!-- poster='poster.png' -->
   title='Demo Meaty'
   autoplay=true
   loop=true
@@ -400,7 +398,7 @@ Dan yang paling penting buat tekanan: **advantage on block/hit**. Kalau serangan
 > **Tips:** Kamu nggak harus hafalin frame data semua karakter dari hari pertama. Mulailah dengan hafal apakah *serangan utama kamu* itu safe atau unsafe on block. Itu yang paling penting dulu.
 {: .prompt-tip }
 
-Frame data itu awalnya bikin aku takut. Angka-angka itu keliatan kayak jargon yang susah. Tapi begitu aku ngerti konsepnya, aku sadar ini cuma alat buat jelasin sesuatu yang sebenernya bisa aku rasain secara intuitif, kenapa kadang aku bisa punish serangan tertentu, dan kenapa kadang nggak bisa.
+Frame data itu awalnya bikin aku takut. Angka-angka itu keliatan kayak jargon yang susah. Tapi begitu aku ngerti konsepnya, aku sadar ini cuma alat buat jelasin sesuatu yang sebenernya bisa aku rasain secara intuitif, kenapa kadang aku bisa punish serangan tertentu, dan kenapa kadang nggak bisa.[^fn1]
 
 ---
 
@@ -527,8 +525,12 @@ Tanpa salah satu dari itu, combo-mu nggak akan pernah keluar di match beneran. L
 
 Aku sendiri masih jauh dari bagus. Rank aku biasa-biasa aja, dan tiap hari masih ada hal baru yang aku pelajari. Tapi justru itu yang bikin fighting game seru, selalu ada hal yang bisa diperbaiki.
 
-Kalau kamu tertarik buat mulai, jangan takut sama kurva belajarnya. Semua orang mulai dari nol. Kalau ada pertanyaan soal apapun yang aku tulis di sini, feel free tinggalin komentar. Aku bukan expert, tapi kita bisa belajar bareng. ✌️
+Kalau kamu tertarik buat mulai, jangan takut sama kurva belajarnya. Semua orang mulai dari nol. Aku bukan expert, tapi kita bisa belajar bareng. ✌️
 
 ---
 
 [^fn1]: Frame data di artikel ini menggunakan referensi umum dan bisa berbeda antar versi patch game. Selalu cek sumber terbaru seperti Dustloop Wiki untuk Guilty Gear atau Fighting Game Wiki untuk SF6.
+
+[Dustloop Wiki](https://www.dustloop.com/w/Main_Page)
+[SuperCombo Wiki](https://wiki.supercombo.gg/w/Main_Page)
+
