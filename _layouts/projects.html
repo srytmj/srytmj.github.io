@@ -1,12 +1,12 @@
 ---
-layout: default
+layout: page
 ---
 
 <div id="post-list" class="flex-grow-1 px-xl-1">
   {% for project in site.data.projects %}
     <article class="card-wrapper card">
       <a href="{{ project.repository_url }}" target="_blank" rel="noopener noreferrer" class="post-preview row g-0 flex-md-row-reverse">
-        
+
         {% assign card_body_col = '12' %}
 
         {% if project.screenshot %}
@@ -26,7 +26,7 @@ layout: default
 
             <div class="post-meta flex-grow-1 d-flex align-items-end">
               <div class="me-auto">
-                
+
                 <!-- Stack -->
                 {% if project.stack.size > 0 %}
                   <div class="mb-1">
