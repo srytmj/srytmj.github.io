@@ -404,14 +404,14 @@ Frame data itu awalnya bikin aku takut. Angka-angka itu keliatan kayak jargon ya
 
 ## Drive System: Sistem Unik Street Fighter 6
 
-![alt text](../assets/img/posts/260530/2026-05-30-belajar-fighting-game/6.png)
+![alt text](/assets/img/posts/260530/2026-05-30-belajar-fighting-game/6.png)
 
 Oke, sekarang masuk ke hal yang spesifik ke Street Fighter 6, yaitu **Drive System**.
 
 Setiap karakter di SF6 punya gauge biru di bawah health bar. Itu namanya **Drive Gauge**. Ada 6 bar, dan hampir semua aksi spesial di SF6 pakai drive gauge ini.
 
 ### Drive Impact
-![alt text](../assets/img/posts/260530/2026-05-30-belajar-fighting-game/di.gif){: heigth:"400" }
+![alt text](/assets/img/posts/260530/2026-05-30-belajar-fighting-game/di.gif){: heigth:"400" }
 **Drive Impact** adalah serangan yang punya armor, artinya kamu bisa *menyerap* satu hit dari lawan dan tetap lanjut nyerang.
 
 Ini serangan yang punya hitbox besar, damage lumayan, dan yang terpenting: kalau kena di dekat corner, lawan bisa terpental ke dinding dan kena crumple state (kondisi di mana lawan diam sejenak dan kamu bisa combo panjang).
@@ -422,7 +422,7 @@ Aku dulu mati berkali-kali gara-gara Drive Impact spam. Setelah aku ngerti cara 
 
 ### Drive Rush
 
-![alt text](../assets/img/posts/260530/2026-05-30-belajar-fighting-game/dr.gif){: heigth:"400" }
+![alt text](/assets/img/posts/260530/2026-05-30-belajar-fighting-game/dr.gif){: heigth:"400" }
 
 **Drive Rush** itu semacam dash yang super cepat dan bisa di-cancel dari normal move atau dari block.
 
@@ -432,7 +432,7 @@ Drive Rush itu mahal (butuh 3 bar drive gauge), tapi payoff-nya besar banget. In
 
 ### Drive Parry
 
-![alt text](../assets/img/posts/260530/2026-05-30-belajar-fighting-game/parry.png){: heigth:"400" }
+![alt text](/assets/img/posts/260530/2026-05-30-belajar-fighting-game/parry.png){: heigth:"400" }
 
 **Drive Parry** adalah cara kamu "menepis" serangan lawan dengan timing yang tepat. Kalau kamu parry, kamu nggak cuma ngehindarin damage, kamu juga recover drive gauge kamu.
 
@@ -442,7 +442,7 @@ Perfect parry (timing yang benar-benar pas) memberikan kamu window buat punish b
 
 ### Burnout: Kondisi Paling Bahaya
 
-![alt text](../assets/img/posts/260530/2026-05-30-belajar-fighting-game/burn.png){: heigth:"400" .w-50 .left }
+![alt text](/assets/img/posts/260530/2026-05-30-belajar-fighting-game/burn.png){: heigth:"400" .w-50 .left }
 
 **Burnout** adalah kondisi yang terjadi kalau drive gauge kamu habis atau kamu kena Drive Impact saat gauge-mu rendah.
 
@@ -459,7 +459,7 @@ Aku pernah burnout di babak pertama gara-gara terlalu banyak Drive Rush. Hasilny
 
 ## Corner Pressure: Terjebak di Sudut itu Mengerikan
 
-![alt text](../assets/img/posts/260530/2026-05-30-belajar-fighting-game/corner.gif){: heigth:"400" }
+![alt text](/assets/img/posts/260530/2026-05-30-belajar-fighting-game/corner.gif){: heigth:"400" }
 
 **Corner pressure** adalah tekanan yang kamu berikan ke lawan saat mereka sudah terpojok di corner (ujung stage).
 
