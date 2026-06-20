@@ -167,7 +167,7 @@ Dulu waktu pakai Jagoan Hosting + VPS, bayar monthly dan agak limited. Sekarang 
 ## Glossary
 
 ### VPS (Virtual Private Server)
-Server virtual milik lo sendiri, hosted di data center provider. Kamu dapat access penuh, bisa install apa aja, tapi perlu manage sendiri (updates, security, backups). Berbeda dengan AWS EC2, VPS lebih sederhana tapi kurang scalable.
+Server virtual punya kamu sendiri, hosted di data center provider. Kamu dapat access penuh, bisa install apa aja, tapi perlu manage sendiri (updates, security, backups). Berbeda dengan AWS EC2, VPS lebih sederhana tapi kurang scalable.
 
 ### AWS EC2 (Elastic Compute Cloud)
 Service dari Amazon Web Services untuk rent virtual machines. EC2 instances bisa di-scale up/down sesuai kebutuhan. t3.micro (free tier) ngasih 750 jam gratis per bulan.
@@ -197,7 +197,7 @@ DNS record yang map domain ke IPv4 address. Contoh: `suryatmaja.dev` → `1.2.3.
 - **SSL/TLS**: Protocols untuk encrypt data between browser and server. SSL (old), TLS (modern). Browser show green lock kalau HTTPS valid.
 
 ### Certificate
-Digital proof bahwa domain lo legitimate. Browser trust certificate issued by Certificate Authorities (CA). Cloudflare auto-provision certificate gratis untuk domain lo.
+Digital proof bahwa domain kamu legitimate. Browser trust certificate issued by Certificate Authorities (CA). Cloudflare auto-provision certificate gratis untuk domain kamu.
 
 ### Cloudflare
 Service provider yang offer DNS, CDN, security, dan features lainnya. Dipakai untuk manage domain, secure traffic, dan provide Tunnel service.
