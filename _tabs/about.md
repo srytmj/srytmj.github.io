@@ -5,9 +5,9 @@ order: 4
 
 # Halo, saya Bakti Surya Atmaja (Maja)
 
-Saya orang yang awalnya cuma mau jago ngitung laporan keuangan, tapi keterusan penasaran sama sistem yang menghasilkan angka-angka itu. Sekarang malah lebih sering mikirin server daripada neraca.
+Jujur aja, masuk jurusan **Sistem Informasi Akuntansi** itu bukan cita-cita besar dari awal, lebih ke kejeblos aja waktu milih jurusan. Tapi dari situ saya malah keterusan penasaran sama sistem di balik angka-angka yang saya olah setiap hari, dan sekarang malah lebih sering mikirin server daripada neraca.
 
-Saya berasal dari latar belakang **Sistem Informasi Akuntansi**, dengan ketertarikan yang berkembang dari data sederhana sampai ke ekosistem sistem yang lebih kompleks kayak **cloud computing, audit sistem, dan optimasi biaya infrastruktur**.
+Ketertarikan itu terus berkembang, dari data sederhana sampai ke ekosistem sistem yang lebih kompleks kayak **cloud computing, audit sistem, dan optimasi biaya infrastruktur**.
 
 Perjalanan saya dimulai dari hal yang cukup "hands-on": SQL, API, dan pengolahan data sejak SMK. Dari situ baru berkembang jadi pemahaman soal bagaimana sistem bekerja dalam konteks bisnis, audit, dan efisiensi operasional.
 
@@ -67,6 +67,8 @@ Saya juga sempat mempersiapkan diri untuk sertifikasi **AWS Cloud Practitioner (
 - **Versioning**: Git, GitHub  
 
 Sejak SMK saya juga cukup sering bermain dengan **Linux environment**, yang membantu saya cepat adaptasi dengan tools baru, baik itu programming, system tools, maupun cloud services.
+
+Yang lagi saya rencanain pelajari berikutnya: Docker, Terraform, sertifikasi FinOps Certified Practitioner, sampai dasar multi-cloud (GCP/Azure).
 
 ---
 
