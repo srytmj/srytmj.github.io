@@ -16,6 +16,8 @@
   description: Sistem ATM berbasis CLI yang dibangun dengan Java menggunakan prinsip OOP seperti encapsulation, inheritance, dan polymorphism. Mendukung fitur transaksi seperti tarik tunai, setor, transfer.
   stack: [Java, OOP]
   features: [Withdraw & Deposit, Transfer antar akun, Authentication system, Transaction handling]
+  date: "Juni 2026"
+  status: "Completed"
 #   screenshot: /assets/img/projects/auth-bot.png
   repository_url: https://github.com/srytmj/oop-banking-cli
 
@@ -23,6 +25,8 @@
   description: Aplikasi Point of Sale (POS) berbasis web yang terintegrasi dengan sistem akuntansi untuk mencatat transaksi dan menghasilkan jurnal umum serta buku besar secara otomatis.
   stack: [Laravel, PHP, MySQL, Tailwind CSS]
   features: [POS transaksi, Double-entry accounting, Jurnal umum otomatis, Buku besar, Laporan keuangan]
+  date: "Juni 2024"
+  status: "Completed"
 #   screenshot: /assets/img/projects/auth-bot.png
   repository_url: https://github.com/srytmj/laravel-pos-accounting
 
@@ -30,6 +34,8 @@
   description: Sistem manajemen proyek berbasis web yang mendukung perencanaan anggaran dan pelacakan realisasi biaya untuk memonitor perbandingan budget vs actual.
   stack: [Laravel, PHP, MySQL]
   features: [Budget planning, Expense tracking, Budget vs actual report, Project management]
+  date: "Mei 2026"
+  status: "Completed"
 #   screenshot: /assets/img/projects/auth-bot.png
   repository_url: https://github.com/srytmj/project-budget-management
 
@@ -37,6 +43,8 @@
   description: Sistem administrasi internal untuk pengelolaan Frequent Customer Card pada layanan kereta, dengan fokus pada kontrol penggunaan dan validasi kuota untuk menjaga integritas data.
   stack: [Laravel, PHP, MySQL]
   features: [Card management, Quota control, Usage validation, Admin dashboard]
+  date: "Mei 2026"
+  status: "Completed"
 #   screenshot: /assets/img/projects/auth-bot.png
   repository_url: https://github.com/srytmj/fcc-admin-system
 
@@ -44,6 +52,8 @@
   description: Sistem informasi pendaftaran asisten praktikum berbasis Laravel dengan dukungan multi-role (Student, Lecturer, Admin) serta autentikasi fleksibel menggunakan email atau username.
   stack: [Laravel, PHP, MySQL, Tailwind CSS, Laravel Breeze]
   features: [Multi-role authentication, Asprak registration, User management, Responsive UI]
+  date: "Desember 2025"
+  status: "Completed"
   #   screenshot: /assets/img/projects/auth-bot.png
   repository_url: https://github.com/srytmj/sipena-app
 
@@ -51,6 +61,8 @@
   description: Aplikasi manga library berbasis Filament (Laravel) untuk tracking progress bacaan, agregasi chapter terbaru dari beberapa sumber, dan pengelolaan koleksi manga pribadi.
   stack: [Laravel, Filament, Livewire, Alpine.js]
   features: [Reading progress tracking, Multi-source chapter aggregation, Personal collection management, Admin panel]
+  date: "Juni 2026"
+  status: "Ongoing"
 #   screenshot: /assets/img/projects/auth-bot.png
   repository_url: https://github.com/srytmj/malas
 
@@ -58,6 +70,8 @@
   description: Aplikasi checklist kolaboratif realtime yang memungkinkan banyak user mengerjakan shared task list secara bersamaan, dengan update instan lewat WebSocket.
   stack: [Bun, Hono, Alpine.js, PostgreSQL]
   features: [Realtime multi-user checklist, WebSocket live update, JWT authentication, No-build frontend]
+  date: "Juni 2026"
+  status: "Completed"
 #   screenshot: /assets/img/projects/auth-bot.png
   repository_url: https://github.com/srytmj/group-checklist
 
@@ -65,5 +79,7 @@
   description: Implementasi arsitektur High Availability web server di AWS menggunakan dua EC2 instance dengan read-write separation, RDS MySQL, S3, dan Application Load Balancer.
   stack: [AWS EC2, RDS MySQL, S3, Application Load Balancer, Apache, PHP]
   features: [Round-robin load balancing, Read-write separation, S3 media storage, Automated health check, IAM role-based access]
+  date: "Juni 2026"
+  status: "Completed"
 #   screenshot: /assets/img/projects/auth-bot.png
   repository_url: https://github.com/srytmj/ha-webserver

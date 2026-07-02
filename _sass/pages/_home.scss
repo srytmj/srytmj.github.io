@@ -119,6 +119,44 @@
   margin-right: -0.25rem;
 }
 
+/* Project status badge (Projects page) */
+.project-status {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0.7rem;
+  font-weight: 600;
+  line-height: 1.3rem;
+  padding: 0 0.5rem;
+  margin-left: 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid currentcolor;
+
+  &.project-status-ongoing {
+    color: var(--link-color);
+  }
+
+  &.project-status-completed {
+    color: #4caf7d;
+  }
+
+  &.project-status-archived {
+    color: var(--text-muted-color);
+  }
+}
+
+/* Project stack filter chips (Projects page) */
+.project-filter-btn {
+  cursor: pointer;
+  background: none;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+
+  &.active {
+    background-color: var(--link-color);
+    border-color: var(--link-color);
+    color: var(--main-bg) !important;
+  }
+}
+
 .pagination {
   color: var(--text-color);
   font-family: Lato, sans-serif;

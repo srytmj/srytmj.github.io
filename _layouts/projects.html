@@ -5,9 +5,57 @@ layout: page
 
 {% include lang.html %}
 
+<!-- Sort projects by `date` (format: "Bulan Tahun", e.g. "Juni 2026") from newest to oldest -->
+{% assign sort_helpers = "" | split: "" %}
+{% for project in site.data.projects %}
+  {% assign date_parts = project.date | split: " " %}
+  {% assign month_name = date_parts[0] %}
+  {% assign year = date_parts[1] %}
+  {% case month_name %}
+    {% when "Januari" %}{% assign month_num = "01" %}
+    {% when "Februari" %}{% assign month_num = "02" %}
+    {% when "Maret" %}{% assign month_num = "03" %}
+    {% when "April" %}{% assign month_num = "04" %}
+    {% when "Mei" %}{% assign month_num = "05" %}
+    {% when "Juni" %}{% assign month_num = "06" %}
+    {% when "Juli" %}{% assign month_num = "07" %}
+    {% when "Agustus" %}{% assign month_num = "08" %}
+    {% when "September" %}{% assign month_num = "09" %}
+    {% when "Oktober" %}{% assign month_num = "10" %}
+    {% when "November" %}{% assign month_num = "11" %}
+    {% when "Desember" %}{% assign month_num = "12" %}
+    {% else %}{% assign month_num = "00" %}
+  {% endcase %}
+  {% assign sort_key = year | append: month_num | append: "|" | append: forloop.index0 %}
+  {% assign sort_helpers = sort_helpers | push: sort_key %}
+{% endfor %}
+{% assign sort_helpers = sort_helpers | sort | reverse %}
+
+<!-- Build the unique list of stack tags for the filter chips -->
+{% assign all_stacks = "" | split: "" %}
+{% for project in site.data.projects %}
+  {% for tech in project.stack %}
+    {% unless all_stacks contains tech %}
+      {% assign all_stacks = all_stacks | push: tech %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+{% assign all_stacks = all_stacks | sort %}
+
+<div id="project-filter" class="d-flex flex-wrap mb-3 mt-3">
+  <button type="button" class="post-tag project-filter-btn me-2 mb-2 active" data-stack="">All</button>
+  {% for tech in all_stacks %}
+    <button type="button" class="post-tag project-filter-btn me-2 mb-2" data-stack="{{ tech }}">{{ tech }}</button>
+  {% endfor %}
+</div>
+<!-- #project-filter -->
+
 <div id="post-list" class="flex-grow-1 px-xl-1">
-  {% for project in site.data.projects %}
-    <article class="card-wrapper card">
+  {% for helper in sort_helpers %}
+    {% assign helper_parts = helper | split: "|" %}
+    {% assign project_index = helper_parts[1] | plus: 0 %}
+    {% assign project = site.data.projects[project_index] %}
+    <article class="card-wrapper card" data-stack="{{ project.stack | join: '|' }}">
       <a href="{{ project.repository_url }}" target="_blank" rel="noopener noreferrer" class="post-preview row g-0 flex-md-row-reverse">
 
         {% assign card_body_col = '12' %}
@@ -21,7 +69,13 @@ layout: page
 
         <div class="col-md-{{ card_body_col }}">
           <div class="card-body d-flex flex-column">
-            <h1 class="card-title my-2 mt-md-0">{{ project.title }}</h1>
+            <h1 class="card-title my-2 mt-md-0">
+              {{ project.title }}
+              {% if project.status %}
+                {% assign status_class = project.status | downcase %}
+                <span class="project-status project-status-{{ status_class }}">{{ project.status }}</span>
+              {% endif %}
+            </h1>
 
             <div class="card-text content mt-0 mb-3">
               <p>{{ project.description }}</p>
@@ -29,6 +83,14 @@ layout: page
 
             <div class="post-meta flex-grow-1 d-flex align-items-end">
               <div class="me-auto">
+
+                <!-- Date -->
+                {% if project.date %}
+                  <div class="mb-1">
+                    <i class="far fa-calendar fa-fw me-1"></i>
+                    {{ project.date }}
+                  </div>
+                {% endif %}
 
                 <!-- Stack -->
                 {% if project.stack.size > 0 %}
@@ -66,3 +128,41 @@ layout: page
   {% endfor %}
 </div>
 <!-- #post-list -->
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const allBtn = document.querySelector('#project-filter .project-filter-btn[data-stack=""]');
+    const stackBtns = document.querySelectorAll('#project-filter .project-filter-btn[data-stack]:not([data-stack=""])');
+    const cards = document.querySelectorAll('#post-list .card-wrapper');
+    const active = new Set();
+
+    function render() {
+      allBtn.classList.toggle('active', active.size === 0);
+      stackBtns.forEach((btn) => {
+        btn.classList.toggle('active', active.has(btn.dataset.stack));
+      });
+      cards.forEach((card) => {
+        const stacks = (card.dataset.stack || '').split('|');
+        const show = active.size === 0 || stacks.some((s) => active.has(s));
+        card.style.display = show ? '' : 'none';
+      });
+    }
+
+    allBtn.addEventListener('click', () => {
+      active.clear();
+      render();
+    });
+
+    stackBtns.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const tag = btn.dataset.stack;
+        if (active.has(tag)) {
+          active.delete(tag);
+        } else {
+          active.add(tag);
+        }
+        render();
+      });
+    });
+  });
+</script>
