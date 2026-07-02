@@ -30,3 +30,6 @@ package-lock.json
 *~
 .DS_Store
 Thumbs.db
+
+# Claude agent rules (internal, not for public repo)
+agents/
