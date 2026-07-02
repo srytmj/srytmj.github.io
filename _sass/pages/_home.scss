@@ -104,6 +104,21 @@
   }
 } /* #post-list */
 
+/*
+  Tab pages (e.g. Projects) render #post-list inside `page.html`'s
+  `article.px-1` + `.content` wrapper, which home.html doesn't have.
+  That wrapper's own margin-top (collapsing with #post-list's) and
+  horizontal padding throw card spacing off from home — align them here.
+*/
+.content:has(> #post-list) {
+  margin-top: 0;
+}
+
+.content > #post-list {
+  margin-left: -0.25rem;
+  margin-right: -0.25rem;
+}
+
 .pagination {
   color: var(--text-color);
   font-family: Lato, sans-serif;

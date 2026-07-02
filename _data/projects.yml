@@ -46,3 +46,24 @@
   features: [Multi-role authentication, Asprak registration, User management, Responsive UI]
   #   screenshot: /assets/img/projects/auth-bot.png
   repository_url: https://github.com/srytmj/sipena-app
+
+- title: Malas - Manga Library System
+  description: Aplikasi manga library berbasis Filament (Laravel) untuk tracking progress bacaan, agregasi chapter terbaru dari beberapa sumber, dan pengelolaan koleksi manga pribadi.
+  stack: [Laravel, Filament, Livewire, Alpine.js]
+  features: [Reading progress tracking, Multi-source chapter aggregation, Personal collection management, Admin panel]
+#   screenshot: /assets/img/projects/auth-bot.png
+  repository_url: https://github.com/srytmj/malas
+
+- title: Realtime Checklist App
+  description: Aplikasi checklist kolaboratif realtime yang memungkinkan banyak user mengerjakan shared task list secara bersamaan, dengan update instan lewat WebSocket.
+  stack: [Bun, Hono, Alpine.js, PostgreSQL]
+  features: [Realtime multi-user checklist, WebSocket live update, JWT authentication, No-build frontend]
+#   screenshot: /assets/img/projects/auth-bot.png
+  repository_url: https://github.com/srytmj/group-checklist
+
+- title: HA Web Server on AWS
+  description: Implementasi arsitektur High Availability web server di AWS menggunakan dua EC2 instance dengan read-write separation, RDS MySQL, S3, dan Application Load Balancer.
+  stack: [AWS EC2, RDS MySQL, S3, Application Load Balancer, Apache, PHP]
+  features: [Round-robin load balancing, Read-write separation, S3 media storage, Automated health check, IAM role-based access]
+#   screenshot: /assets/img/projects/auth-bot.png
+  repository_url: https://github.com/srytmj/ha-webserver
